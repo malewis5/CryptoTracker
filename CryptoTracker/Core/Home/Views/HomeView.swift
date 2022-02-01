@@ -102,6 +102,9 @@ extension HomeView {
 //                    }
             }
         }
+        .refreshable {
+            vm.reloadData()
+        }
         .listStyle(.plain)
     }
     

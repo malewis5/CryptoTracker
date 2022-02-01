@@ -151,6 +151,7 @@ extension PortfolioView {
         // show checkmark
         withAnimation(.easeIn) {
             showCheckmark = true
+            HapticManager.notification(type: .success)
             removeSelectedCoin()
         }
         
@@ -159,7 +160,7 @@ extension PortfolioView {
         quantityText = ""
         
         // hide checkmark
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.75) {
             withAnimation(.easeOut) {
                 showCheckmark = false
             }

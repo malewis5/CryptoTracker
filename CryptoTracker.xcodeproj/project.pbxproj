@@ -37,6 +37,7 @@
 		83DB77EC27A99B7E005878D7 /* CoinLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DB77EB27A99B7E005878D7 /* CoinLogoView.swift */; };
 		83DB77EF27A9A80A005878D7 /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83DB77ED27A9A80A005878D7 /* PortfolioContainer.xcdatamodeld */; };
 		83DB77F127A9A89E005878D7 /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DB77F027A9A89E005878D7 /* PortfolioDataService.swift */; };
+		83DB77F327A9E0BB005878D7 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DB77F227A9E0BB005878D7 /* HapticManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		83DB77EB27A99B7E005878D7 /* CoinLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLogoView.swift; sourceTree = "<group>"; };
 		83DB77EE27A9A80A005878D7 /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		83DB77F027A9A89E005878D7 /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
+		83DB77F227A9E0BB005878D7 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 			children = (
 				838E029927A87B6B00AD53A9 /* NetworkingManager.swift */,
 				838E02A627A8A7A800AD53A9 /* LocalFileManager.swift */,
+				83DB77F227A9E0BB005878D7 /* HapticManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				838E029A27A87B6B00AD53A9 /* NetworkingManager.swift in Sources */,
 				837063FA27A48D000007E1B9 /* Color.swift in Sources */,
 				838E02A327A886D800AD53A9 /* CoinImageService.swift in Sources */,
+				83DB77F327A9E0BB005878D7 /* HapticManager.swift in Sources */,
 				83DB77EA27A99601005878D7 /* XMarkButton.swift in Sources */,
 				838E02A927A8AE0D00AD53A9 /* SearchBarView.swift in Sources */,
 				838E029727A8719B00AD53A9 /* CoinDataService.swift in Sources */,
